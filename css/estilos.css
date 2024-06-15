@@ -392,6 +392,32 @@ a {
 	color: #ffffff;
 }
 
+/* Menu desplegable */
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    width: 200px;
+}
+
+.submenu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+
 /* Logo header */
 header a img {
 	width: 10vw;
@@ -433,6 +459,8 @@ section {
 .fotoIndex1 img {
 	width: 150%;
 	margin-bottom: 2rem;
+	border-radius: 20px;
+	border: 2.5px solid #fff;
 }
 
 .fotoIndex1 p {
@@ -441,21 +469,17 @@ section {
 	font-size: 20px;
 }
 
+/* 
 .fotoIndex2 {
 	margin: 2.5% 5%;
 	display: flex;
 }
 
-.fotoIndex2 div {
-	width: 33%;
-	padding: 2%;
-	text-align: center;
-	display: inline;
-}
-
-.fotoIndex2 div img {
+.fotoIndex2 img {
 	width: 50%;
 	margin-bottom: 2rem;
+	border-radius: 20px;
+	border: 2.5px solid #fff;
 }
 
 .fotoIndex2 p {
@@ -463,6 +487,7 @@ section {
 	margin-right: 3%;
 	font-size: 20px;
 }
+*/
 
 h4{
 	font-size: 1.5rem;
@@ -473,6 +498,7 @@ footer {
 	display: flex;
 	background-color: #0f0f0f;
 	align-items: center;
+	text-align: center;
 	justify-content: space-between;
 }
 
@@ -530,6 +556,8 @@ h1{
 .fotoReal1 img {
 	width: 38%;
 	margin-bottom: 2rem;
+	border-radius: 20px;
+	border: 2.5px solid #fff;
 }
 
 .fotoReal1 p {
@@ -546,22 +574,23 @@ h1{
 .imagen-texto img {
     width: 100%;
     height: auto;
-    margin-bottom: 0.5rem; /* Ajusta el espacio inferior */
+    margin-bottom: 1%;
 }
 
 .imagen-texto .textoimagen {
     font-size: 16px; 
     color: #ffffff;
-    text-align: center; /* Centra el texto */
+    text-align: center;
 }
 
 .resumen {
     margin-left: 3%;
+	margin-right: 3%;
     font-size: 20px;
-    max-width: 700px; /* Ajusta el tamaño máximo del resumen */
+    max-width: 700px; 
 }
 
-.fotoReal2 {
+/*.fotoReal2 {
 	margin: 2.5% 5%;
 	display: flex;
 }
@@ -580,7 +609,7 @@ h1{
 	margin-top: 5%;
 	margin-right: 3%;
 	font-size: 20px;
-}
+}*/
 
 .form {
 	width:100%;
