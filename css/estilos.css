@@ -512,7 +512,25 @@ section {
 }
 */
 
-h4{
+/* Personajes */
+h2 {
+	color: #fff;
+}
+
+.fotoPersonajes {
+	display: flex;
+}
+
+.fotoPersonajes img {
+	width: 25%;
+}
+
+.fotoPersonajes p {
+	font-size: 1.25rem;
+	padding: 30px;
+}
+
+h4 {
 	font-size: 1.5rem;
 	text-transform: uppercase;
 }
@@ -571,19 +589,19 @@ h1{
 	color: #000;
 }
 
-.fotoReal1 {
+.fotoReal {
 	margin: 2.5% 5%;
 	display: flex;
 }
 
-.fotoReal1 img {
+.fotoReal img {
 	width: 38%;
 	margin-bottom: 2rem;
 	border-radius: 20px;
 	border: 2.5px solid #fff;
 }
 
-.fotoReal1 p {
+.fotoReal p {
 	margin-top: 5%;
 	font-size: 20px;
 }
