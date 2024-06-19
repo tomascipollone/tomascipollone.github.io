@@ -523,11 +523,14 @@ h2 {
 
 .fotoPersonajes img {
 	width: 25%;
+	border-radius: 20px;
+	border: 2.5px solid #fff;
 }
 
 .fotoPersonajes p {
 	font-size: 1.25rem;
-	padding: 30px;
+	padding: 13px;
+	margin-left: 2.5%;
 }
 
 h4 {
