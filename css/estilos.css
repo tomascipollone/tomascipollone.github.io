@@ -492,28 +492,53 @@ section {
 	font-size: 20px;
 }
 
-/* Personajes */
+/* Capitulos */
 h2 {
 	color: #fff;
 }
 
-.fotoPersonajes {
+.fotoCapitulos {
 	display: flex;
 }
 
-.fotoPersonajes img {
-	width: 25%;
+.fotoCapitulos img {
+	width: 20%;
 	border-radius: 20px;
 	border: 2.5px solid #fff;
 }
 
-.fotoPersonajes p {
+.fotoCapitulos p {
 	font-size: 1.25rem;
 	padding: 13px;
 	margin-left: 2.5%;
 }
 
-/* Personajes Temporada 1 */
+/* Corregir fondo sitio */
+
+/*
+.fondo-izquierda, .fondo-derecha {
+  position: fixed;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.fondo-izquierda {
+  left: 0;
+  background-image: url(../images/foto_index.jpg);
+}
+
+.fondo-derecha {
+  right: 0;
+  background-image: url(../images/portada2.jpg);
+  background-size: ;
+}
+*/
+
+/* Capitulos Temporada 1 */
 
 section span {
   display: block;
