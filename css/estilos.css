@@ -515,7 +515,10 @@ h2 {
 
 /* Personajes Temporada 1 */
 
-
+section span {
+  display: block;
+  margin-top: 1%;
+}
 
 h4 {
 	font-size: 1.5rem;
