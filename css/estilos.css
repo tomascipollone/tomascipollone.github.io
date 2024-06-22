@@ -587,8 +587,6 @@ h2 {
 	margin-left: 2.5%;
 }
 
-/* Capitulos Temporada 1 */
-
 section span {
   display: block;
   margin-top: 1%;
@@ -697,25 +695,25 @@ h1{
 }
 
 .form {
-	width:100%;
-	height:440px;
-	background:#e6e6e6;
-	border-radius:8px;
-	box-shadow:0 0 40px -10px #000;
-	margin:calc(1vh) auto;
-	padding:10px 30px;
-	box-sizing:border-box;
-	font-family:'Montserrat',sans-serif;
+	width: 100%;
+	height: 500px;
+	background: #e6e6e6;
+	border-radius: 8px;
+	box-shadow: 0 0 40px -10px #000;
+	margin: calc(1vh) auto;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	font-family: 'Roboto',sans-serif;
 	font-size: 14px;
-	position:relative
+	position:relative;
 }
 
 h3.contacto{
 	margin:10px 0;
 	padding-bottom:10px;
 	width:150px;
-	color:#78788c;
-	border-bottom:3px solid #78788c;
+	color:#000;
+	border-bottom:3px solid #000;
 	font-size: large;
 }
 
@@ -729,18 +727,18 @@ input{
 	resize:none;
 	border:0;
 	transition:all .3s;
-	border-bottom:2px solid #bebed2
+	border-bottom:2px solid #000
 }
 
 input:focus{
-	border-bottom:2px solid #78788c
+	border-bottom:2px solid #000;
 }
 
 div.pie_contacto{
 	position:absolute;
 	bottom:-15px;
 	right:30%;
-	background:#50505a;
+	background:#0f0f0f;
 	color:#fff;
 	width:420px;
 	padding:16px 4px 16px 0;
