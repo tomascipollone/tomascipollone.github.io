@@ -7,11 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/lightbox.js"></script>
     <title>Narcos Netflix</title>
 </head>
 <body>
     <header>
         <a href="index.html"><img src="images/Narcoslogo.jpg" alt="Logo Narcos"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         <nav>
             <ul class="menu">
                 <li><a href="index.html" >Inicio</a></li>
@@ -33,13 +37,21 @@
         <h1>Galería</h1>
         <p style="font-size: 1.5rem; text-align: center;">Bienvenido a la Galería de Imágenes de Narcos. Aquí podrás explorar una selección de imágenes icónicas de la aclamada serie de Netflix que narra la historia del narcotráfico en Colombia. Desde momentos de alta tensión hasta retratos de los personajes más fascinantes, nuestra galería te ofrece un vistazo visual único a través de las temporadas. Sumérgete en el mundo de Narcos y disfruta de esta colección de imágenes que capturan la intensidad y la complejidad de una era marcada por el poder y la influencia del crimen organizado.</p>
         <article>
-            
-        </article>
-        <article>
-            
-        </article>
-        <article>
-            
+            <div>
+                <a href="images/PabloEscobarReal.jpg" data-lightbox="mygallery" data-title="Foto de Pablo Escobar">
+                <img src="images/PabloEscobarReal.jpg" alt="Foto de Pablo Escobar" style="width: 15%;">
+                </a>
+            </div>
+            <div>
+                <a href="images/pablo_escobar.jpeg" data-lightbox="mygallery" data-title="Foto de Pablo Escobar">
+                <img src="images/pablo_escobar.jpeg" alt="Foto de Pablo Escobar">
+                </a>
+            </div>
+            <div>
+                <a href="images/gilberto_rodriguez.jpg" data-lightbox="mygallery" data-title="Foto de Pablo Escobar">
+                <img src="images/gilberto_rodriguez.jpg" alt="Foto de Pablo Escobar">
+                </a>
+            </div>
         </article>
     </section>
     <section class="botones">
@@ -63,5 +75,21 @@
             
         </div>
     </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script type="text/javascript">
+        lightbox.option({
+          albumLabel: "Imagen %1 de %2"
+        })
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
