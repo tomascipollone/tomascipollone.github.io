@@ -14,7 +14,7 @@
     <a href="index.html"><img src="images/Narcoslogo.jpg" alt="Logo Narcos"></a>
         <nav>
             <ul class="menu">
-                <li><a href="index.html" style="font-weight: 800;">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="historiareal.html">Historia Real</a></li>
                 <li><a href="capitulos.html">Capítulos</a>
                     <ul class="submenu">
@@ -25,23 +25,22 @@
                 </li>
                 <li><a href="personajes.html">Personajes</a></li>
                 <li><a href="galeria.html">Galería</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="contacto.html" style="font-weight: 800;">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <section>
         <h1>Contacto</h1>
-        <article class="principal">
-                <form class="form">
-                    <h3 class="contacto">ESCRIBINOS</h3>
-                    <input placeholder="Nombre"></input>
-                    <input placeholder="Email"></input>
-                    <input placeholder="Mensaje"></input>
-                    <button>Enviar</button>
-                    <div class="pie_contacto">
-                        <span class="fa fa-phone"></span> 054 11 5555 5555
-                        <span class="fa fa-envelope-o"></span> contacto@pixar.com
-                    </div>
+        <article>
+                <form class="form-contacto">
+                    <h2>Formulario de Contacto</h3>
+                    <input class="controles" name="datos" placeholder="Ingrese su nombre..." type="text"></input>
+                    <input class="controles" name="datos" placeholder="Ingrese su apellido..." type="text"></input>
+                    <input class="controles" name="datos" placeholder="Ingrese su correo electrónico..." type="email"></input>
+                    <textarea class="controles" placeholder="Mensaje..." name="datos" cols="34" rows="7"></textarea>
+                    <input id="checkbox-newsletter" type="checkbox" name="newsletter">Desea suscribirse al newsletter?
+                    </input>
+                    <button type="submit">Enviar</button>
                 </form>
         </article>
     </section>
