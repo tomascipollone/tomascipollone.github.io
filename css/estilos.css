@@ -1,0 +1,623 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff !important;
+}
+
+body {
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen de fondo al desplazarse */
+}
+
+.logo {
+  width: 25%;
+  margin-left: 10%;
+}
+
+nav {
+  font-size: 18px;
+  background-color: #000;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-item:hover {
+  background-color: #000;
+}
+
+.nav-link {
+  padding-left: 50px !important;
+}
+
+/* Estilos Index */
+
+.portada {
+  width: 100%;
+  height: 650px;
+  background-image: url(../images/portada.jpg);
+  box-sizing: content-box;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 1%;
+}
+
+.portada img {
+  width: 30%;
+  margin-left: 55%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.article-centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.fotoIndex {
+  margin: 2.5% 5%;
+  display: flex;
+  max-width: 1300px;
+  align-items: center;
+}
+
+.fotoIndex img {
+  width: 60%;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+}
+
+.fotoIndex p {
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.botones button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.botones button:hover {
+  background: #fff;
+  color: #000 !important;
+}
+
+/* Fin Estilos Index */
+
+/* Historia Real */
+
+#parrafo {
+  font-size: 1.5rem;
+  padding: 0 10%;
+  text-align: center;
+}
+
+#parrafo article div {
+  margin: 5% 0%;
+}
+
+.fotoReal {
+  margin: 2.5% 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.fotoReal img {
+  width: 38%;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+}
+
+.fotoReal p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.imagen-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-texto img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 1%;
+}
+
+.imagen-texto .textoimagen {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.resumen {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+/* Fin Historia Real */
+
+/* Estilos Capitulos Temporada 1 */
+
+#portada-temp-1 {
+  background-image: url(../images/portadaCapitulosTemp1.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+section span {
+  display: block;
+  margin-top: 1%;
+}
+
+.parrafo-cap-temp {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0 3%;
+}
+
+.fotoCapitulos {
+  display: flex;
+  align-items: center;
+}
+
+.fotoCapitulos img {
+  width: 20%;
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+}
+
+.fotoCapitulos p {
+  font-size: 1.25rem;
+  padding: 2.5%;
+  margin-bottom: 0;
+}
+
+.contenedores-capitulos {
+  padding: 1% 5%;
+  max-width: 1250px;
+}
+
+.contenedores-capitulos h2 {
+  padding: 2.5%;
+  text-align: center;
+}
+
+/* Fin Estilos Capitulos Temporada 1 */
+
+/* Estilos Capitulos Temporada 2 */
+
+#portada-temp-2 {
+  background-image: url(../images/portadaCapitulosTemp2.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+/* Fin Estilos Capitulos Temporada 2 */
+
+/* Estilos Capitulos Temporada 3 */
+
+#portada-temp-3 {
+  background-image: url(../images/portadaCapitulosTemp3.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+/* Fin Estilos Capitulos Temporada 3 */
+
+/* Estilos Personajes */
+
+#portada-personajes {
+  background-image: url(../images/portadaPersonajes.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+#contenedor-tarjeta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  width: 350px;
+  height: 670px;
+  background-color: #0f0f0f;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 400px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la proporción */
+  border-radius: 20px;
+}
+
+.tarjeta h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2.5%;
+}
+
+.contenido-tarjeta {
+  padding: 16px;
+}
+
+.contenido-tarjeta img {
+  width: 100%;
+}
+
+.fotoPersonajes img {
+  width: 15%;
+  border-radius: 20px;
+  border: 2.5px solid #fff;
+}
+
+.fotoPersonajes p {
+  font-size: 1.25rem;
+  padding: 13px;
+  margin-left: 2.5%;
+}
+
+/* Fin Estilos Personajes */
+
+/* Estilos Galeria */
+
+#portada-galeria {
+  background-image: url(../images/portadaGaleria.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+.contenedor-galeria {
+  width: 100%;
+  max-width: 1100px;
+  margin: 50px auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.contenedor-galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.resumen {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+/* Fin Estilos Galeria */
+
+/* Estilos Contacto */
+
+#portada-contacto {
+  background-image: url(../images/portadaContacto.jpg);
+  background-position-x: center;
+  background-position-y: 80%;
+  align-items: center;
+}
+
+.form-contacto {
+  width: 450px;
+  height: 600px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 35px -10px #fff;
+  margin: calc(3vh) auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.form-contacto h2 {
+  margin-top: 30px;
+  font-size: 1.35rem;
+  color: #000 !important;
+}
+
+.form-contacto p {
+  display: inline;
+  color: #000 !important;
+}
+
+.controles {
+  width: 100%;
+  margin-top: 22.5px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid #7c7c7c;
+  color: #000 !important;
+}
+
+.controles:focus {
+  border: 2px solid #000;
+}
+
+.form-contacto button {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 12px;
+  margin: 25px 0;
+  border: none;
+  background-color: #7c7c7c;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+}
+
+#checkbox-newsletter {
+  margin: 20px 10px 0 0;
+  color: #000 !important;
+}
+
+#newsletter {
+  display: inline;
+  color: #000 !important;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Fin Estilos Contacto */
+
+footer {
+  display: flex;
+  background-color: #0f0f0f;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+footer div {
+  width: 30%;
+}
+
+footer div p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+footer img {
+  max-width: 2.5rem;
+  margin-left: 10%;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+
+  body {
+    padding-top: 65px;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 73px; /* Ajusta según la altura de tu navbar */
+    left: 0;
+    width: 100%;
+    background-color: #000; /* Ajusta el color según tus necesidades */
+    z-index: 1;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-item {
+      margin: 10px 0;
+  }
+
+  .dropdown-menu {
+      position: static;
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+
+  .dropdown-item {
+      width: 100%;
+  }
+
+  .nav-link {
+    text-align: center;
+    padding: 0px !important;
+  }
+
+  /* Media Queries Index */
+  .logo {
+    margin-left: 5%;
+  }
+
+  .container-fluid {
+    flex-wrap: nowrap !important;
+  }
+
+  .portada {
+    max-width: 576px;
+    height: 250px;
+    margin-top: 3%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3%;
+    color: #fff;
+  }
+
+  .fotoIndex {
+    margin: 0.5% 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fotoIndex img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 20px;
+    border: 2.5px solid #fff;
+  }
+
+  .fotoIndex p {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botones button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+
+  .botones button:hover {
+    background: #fff;
+    color: #000;
+  }
+  /* Fin Media Queries Index */
+
+  /* Media Queries Historia Real */
+
+  .parrafo-cap-temp {
+    font-size: 1rem;
+  }
+
+  #parrafo {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #parrafo article div {
+    margin: 5% 0%;
+  }
+
+  .fotoReal {
+    flex-direction: column;
+  }
+
+  .resumen {
+    margin-top: 0;
+  }
+
+  /* Fin Media Queries Historia Real */
+
+  /* Media Queries Capitulos Temporada 1 */
+  .fotoCapitulos {
+    flex-direction: column;
+  }
+
+  .fotoCapitulos img {
+    width: 50%;
+  }
+
+  .fotoCapitulos p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /* Fin Media Queries Capitulos Temporada 1 */
+
+  /* Media Queries Galeria */
+
+  .contenedor-galeria {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  /* Fin Media Queries Galeria */
+}
