@@ -21,6 +21,10 @@ nav {
   background-color: #000;
 }
 
+.navbar-nav {
+  font-size: 1.5rem;
+}
+
 .navbar-nav .dropdown-menu {
   background-color: #000;
 }
